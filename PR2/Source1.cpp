@@ -9,18 +9,18 @@ using namespace std;
 int main()
 {
 	double x; //вхідний параметр
-	double z1; //отримані результати обчислень
-	double z2;
+	double z1; //отримання першого результату
+	double z2; //отримання другого результату
 
-	cout << "x = "; cin >> x;
+	cout << "x = "; cin >> x; //вказування змінної
 	const double PI = 4.0 * atan(1.0); // число pi
 
-	z1 = 2 * pow(sin(3 * PI - 2 * x), 2) * pow(cos(5 * PI + 2 * x), 2);
-	z2 = 1.0 / 4.0 - 1.0 / 4.0 * sin(5 * PI / 2.0 - 8 * x);
+	z1 = 2 * pow(sin(3 * PI - 2 * x), 2) * pow(cos(5 * PI + 2 * x), 2); // отримання першого значення
+	z2 = 1.0 / 4.0 - 1.0 / 4.0 * sin(5 * PI / 2.0 - 8 * x); //отримання другого значення
 
 	cout << endl;
-	cout << "z1 = " << z1 << endl;
-	cout << "z2 = " << z2 << endl;
+	cout << "z1 = " << z1 << endl; //вивіл першого значення
+	cout << "z2 = " << z2 << endl; //вивід другого значення
 
 	cin.get();
 	return(0);

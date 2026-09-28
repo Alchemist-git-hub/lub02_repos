@@ -1,7 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\lenovo\\desktop\\lpnu\\алгоритмізація та програмування\\pr2\\pr2\\source1.cpp",
+        "Source": "c:\\oleg\\lpnu\\ap\\pr2\\pr2\\source1.cpp",
         "ProvidedModule": "",
         "Includes": [
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\iostream",
